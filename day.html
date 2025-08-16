@@ -7,12 +7,21 @@
             left-padding: 20px;
             border-radius: 20px
         }
+     @keyframes slide {
+      0% {transform: translateX(0)}
+      100% {transform: translateX(100%)}
+    }
+    .slide{
+      animation-name: slide;
+      animation-duration: 11s;
+      animation-iteration-count: 100;
+    }
     </style>
 </head>
 <body>
 <a href="vinayaka.html" ><h1>Home</h1></a>
 <br>
-<h2>Day1 Activities</h2><br>
+<h2 class="slide st">Day1 Activities</h2><br>
 <h1 style="text-align: center;">Vigraha Pratista</h1><br>
 <div class="sty">
     <img src="image.png" alt="" height="1200" width="1200" ><br><br>
@@ -25,6 +34,7 @@
      <video src="day1.2.mp4" controls="true"></video><br><br>
 </div>
 </body>
+
 
 
 
