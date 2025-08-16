@@ -3,10 +3,24 @@
     body{
       background-color: lightpink;
     }
+    @keyframe slide{
+      0% {
+      transform: translateX(100%)
+    }
+    100% {
+      transform: translateX(0%)
+    }
+    .slide{
+      animation_name: slide;
+      animation_duration: 5s;
+      animation_duaration_count: infinite;
+    }
 </style>
 </head>
 <body>
-<h1 style="color: chartreuse;" style="text-align: center;"><b>Vinayaka Chavithi 2024</b></h1> 
+  <div class="slide>
+      <h1 style="color: chartreuse;" style="text-align: center;"><b>Vinayaka Chavithi 2024</b></h1> 
+  </div>
 <br>
 <img src="image.png" alt="" height="1400" width="1000"> 
 <br>
@@ -15,3 +29,4 @@
 <a href="day3.html" target="blank"><h2>Day3 Activities</h2></a>
 <a href="high.html" target="blank"><h2>2024 Highlights</h2></a>
 </body>
+
