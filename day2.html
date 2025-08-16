@@ -3,16 +3,34 @@
         body {
             background-color: lightcyan;
         }
+      @keyframes slide {
+      0% {transform: translateX(0)}
+      100% {transform: translateX(100%)}
+    }
+    .slide{
+      animation-name: slide;
+      animation-duration: 6s;
+      animation-iteration-count: 100;
+    }
+    .st{
+      color: red;
+      font-size:40px;
+      font-weight:bold;
+      height: 50px;
+      width: 4200px;
+      background-color: yellow;
+    }
     </style>
 </head>
 <body>
 <br>
 <a href="vinayaka.html"><h1>Home</h1></a>
 <br>
-<h1 style="text-align: center;">Annadana Karyakramam</h1>
+<h1 style="text-align: center;"class="slide st">Annadana Karyakramam</h1>
 <div>
     <video src="day2.1.mp4" controls="true"></video><br><br>
 </div>
 </body>
+
 
 
